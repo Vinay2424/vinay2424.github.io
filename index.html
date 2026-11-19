@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Batheni Vinay Yadav — Computer Science and Business Systems graduate.">
+  <title>Batheni Vinay Yadav | Portfolio</title>
+  <style>
+    :root{--bg:#0b1020;--panel:#121a2e;--panel2:#17223a;--text:#eef3ff;--muted:#aab6d0;--accent:#79a8ff;--accent2:#8ce0cb;--line:rgba(255,255,255,.12)}
+    *{box-sizing:border-box} html{scroll-behavior:smooth} body{margin:0;background:radial-gradient(circle at 85% 0%,#1a2b50 0,transparent 34%),var(--bg);color:var(--text);font-family:Inter,Segoe UI,Arial,sans-serif;line-height:1.6}
+    a{color:inherit;text-decoration:none}.wrap{width:min(1080px,92%);margin:auto}
+    header{position:sticky;top:0;z-index:10;background:rgba(11,16,32,.88);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+    nav{height:68px;display:flex;align-items:center;justify-content:space-between;gap:18px}.brand{font-weight:800;letter-spacing:.3px}.brand span{color:var(--accent)}
+    .navlinks{display:flex;gap:22px;color:var(--muted);font-size:.92rem}.navlinks a:hover{color:var(--text)}
+    .hero{padding:100px 0 76px;display:grid;grid-template-columns:1.35fr .65fr;gap:45px;align-items:center}
+    .eyebrow{color:var(--accent2);font-weight:700;letter-spacing:2px;text-transform:uppercase;font-size:.78rem}
+    h1{font-size:clamp(2.5rem,6vw,4.8rem);line-height:1.05;letter-spacing:-2px;margin:14px 0 20px}
+    h1 span{color:var(--accent)} .lead{font-size:1.12rem;color:var(--muted);max-width:650px}
+    .actions{display:flex;gap:13px;flex-wrap:wrap;margin-top:30px}.btn{padding:12px 19px;border-radius:10px;font-weight:700;border:1px solid var(--line);display:inline-block}.primary{background:var(--accent);color:#081126;border-color:var(--accent)}.btn:hover{transform:translateY(-2px)}
+    .hero-card{background:linear-gradient(145deg,#1a2a49,#111a2e);border:1px solid var(--line);border-radius:24px;padding:28px;box-shadow:0 25px 70px #0005}
+    .monogram{width:76px;height:76px;border-radius:22px;background:linear-gradient(135deg,var(--accent),var(--accent2));display:grid;place-items:center;color:#071226;font-size:1.7rem;font-weight:900;margin-bottom:22px}
+    .hero-card h3{margin:0 0 5px}.hero-card p{margin:0;color:var(--muted)}
+    .quick{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:24px}.quick div{background:#ffffff09;border:1px solid var(--line);padding:12px;border-radius:12px}.quick b{display:block;font-size:1.1rem}.quick small{color:var(--muted)}
+    section{padding:68px 0;border-top:1px solid var(--line)}.section-head{margin-bottom:28px}.section-head .eyebrow{font-size:.72rem}h2{font-size:2rem;margin:5px 0 8px;letter-spacing:-.6px}.sub{color:var(--muted);max-width:720px;margin:0}
+    .about-grid,.project-grid,.skill-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
+    .card{background:var(--panel);border:1px solid var(--line);border-radius:17px;padding:23px}.card h3{margin:0 0 9px}.card p{color:var(--muted);margin:0}
+    .tags{display:flex;flex-wrap:wrap;gap:9px;margin-top:17px}.tag{font-size:.84rem;color:#dbe7ff;background:#ffffff0c;border:1px solid var(--line);padding:6px 11px;border-radius:99px}
+    .project{min-height:190px;display:flex;flex-direction:column}.project .type{font-size:.75rem;color:var(--accent2);font-weight:800;letter-spacing:1px;text-transform:uppercase}.project h3{margin:9px 0}.project p{flex:1}
+    .note{border-left:3px solid var(--accent2);padding:12px 16px;background:#8ce0cb0b;color:var(--muted);border-radius:0 10px 10px 0;margin-top:20px}
+    .skill-grid{grid-template-columns:repeat(3,1fr)}.skill-card h3{font-size:1rem}.skill-card p{font-size:.92rem}
+    .education{display:grid;grid-template-columns:1fr 1fr;gap:16px}.edu-meta{color:var(--accent2);font-size:.82rem;font-weight:700}
+    .contact{background:linear-gradient(135deg,#17294a,#121a2e);border:1px solid var(--line);padding:30px;border-radius:20px;display:flex;align-items:center;justify-content:space-between;gap:24px}
+    footer{padding:28px 0;color:var(--muted);font-size:.86rem;text-align:center}
+    @media(max-width:760px){.hero{grid-template-columns:1fr;padding:70px 0 55px}.hero-card{max-width:460px}.navlinks{gap:12px;font-size:.8rem}.about-grid,.project-grid,.education{grid-template-columns:1fr}.skill-grid{grid-template-columns:1fr 1fr}.contact{display:block}.contact .btn{margin-top:18px}}
+    @media(max-width:440px){.navlinks a:nth-child(2),.navlinks a:nth-child(3){display:none}.skill-grid{grid-template-columns:1fr}.quick{grid-template-columns:1fr 1fr}}
+  </style>
+</head>
+<body>
+<header><div class="wrap"><nav>
+  <a class="brand" href="#home">VINAY<span>.</span></a>
+  <div class="navlinks"><a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#education">Education</a><a href="#contact">Contact</a></div>
+</nav></div></header>
+<main>
+  <div class="wrap hero" id="home">
+    <div>
+      <div class="eyebrow">Computer Science & Business Systems Graduate</div>
+      <h1>Batheni Vinay <span>Yadav</span></h1>
+      <p class="lead">A 2025 B.Tech graduate interested in technology, problem-solving and creative digital work. Building practical skills across programming, web technologies, data handling and visual editing.</p>
+      <div class="actions"><a class="btn primary" href="#projects">Explore my work</a><a class="btn" href="#contact">Contact me</a></div>
+    </div>
+    <aside class="hero-card">
+      <div class="monogram">BVY</div>
+      <h3>Open to entry-level opportunities</h3>
+      <p>IT support · Software · Networking · Digital design</p>
+      <div class="quick">
+        <div><b>2025</b><small>B.Tech graduate</small></div>
+        <div><b>7.43</b><small>CGPA / 10</small></div>
+      </div>
+    </aside>
+  </div>
+
+  <section id="about"><div class="wrap">
+    <div class="section-head"><div class="eyebrow">Introduction</div><h2>About me</h2><p class="sub">I enjoy learning how technology works and applying it to practical tasks. My academic background combines computer science and business systems, and I have explored both technical projects and creative editing.</p></div>
+    <div class="about-grid">
+      <div class="card"><h3>Technical foundation</h3><p>Familiar with Python, Java, SQL, web fundamentals and database concepts. Interested in developing stronger skills through hands-on projects and entry-level work.</p></div>
+      <div class="card"><h3>Creative interests</h3><p>Personal practice in Adobe Photoshop and image editing, including photo edits, background removal and poster or banner design.</p></div>
+    </div>
+  </div></section>
+
+  <section id="skills"><div class="wrap">
+    <div class="section-head"><div class="eyebrow">What I work with</div><h2>Skills</h2><p class="sub">A snapshot of tools and technologies I have studied or practised.</p></div>
+    <div class="skill-grid">
+      <div class="card skill-card"><h3>Programming</h3><p>Python · Java · SQL</p></div>
+      <div class="card skill-card"><h3>Web technologies</h3><p>HTML · CSS · JavaScript · React JS</p></div>
+      <div class="card skill-card"><h3>Database</h3><p>MySQL · Data handling</p></div>
+      <div class="card skill-card"><h3>Tools</h3><p>Git · VS Code · Eclipse</p></div>
+      <div class="card skill-card"><h3>Creative</h3><p>Adobe Photoshop · Photo editing · Background removal</p></div>
+      <div class="card skill-card"><h3>Networking</h3><p>Cisco Networking Academy — Network Essentials</p></div>
+    </div>
+  </div></section>
+
+  <section id="projects"><div class="wrap">
+    <div class="section-head"><div class="eyebrow">Selected experience</div><h2>Projects & experience</h2><p class="sub">Academic and internship work. Add screenshots, links or design samples as you prepare them.</p></div>
+    <div class="project-grid">
+      <article class="card project"><div class="type">Academic project</div><h3>Real-Time Face Recognition for Library Check-in / Check-out</h3><p>Final-year group project using Python, OpenCV, CNN and MySQL. My contribution focused on data handling.</p><div class="tags"><span class="tag">Python</span><span class="tag">OpenCV</span><span class="tag">MySQL</span></div></article>
+      <article class="card project"><div class="type">Internship</div><h3>Data Science Intern — Krish Tech Solutions</h3><p>College internship involving Python-based data analysis and visualisation.</p><div class="tags"><span class="tag">Python</span><span class="tag">Data analysis</span><span class="tag">Visualisation</span></div></article>
+      <article class="card project"><div class="type">Creative practice</div><h3>Photoshop & image editing</h3><p>Personal practice in photo editing, background removal and poster or banner design. Add your own finished samples here before sharing this portfolio for design roles.</p><div class="tags"><span class="tag">Photoshop</span><span class="tag">Editing</span><span class="tag">Design practice</span></div></article>
+      <article class="card project"><div class="type">Learning project</div><h3>Smart File Organizer</h3><p>A Python practice project focused on organising files into categories. Add a code repository or screenshots if you want recruiters to review it.</p><div class="tags"><span class="tag">Python</span><span class="tag">Automation</span></div></article>
+    </div>
+    <div class="note"><strong>Portfolio tip:</strong> For a graphic/UI design application, include 3–5 genuine design samples (posters, edited photos or social media creatives). Do not present practice work as paid client work.</div>
+  </div></section>
+
+  <section id="education"><div class="wrap">
+    <div class="section-head"><div class="eyebrow">Academic background</div><h2>Education</h2></div>
+    <div class="education">
+      <div class="card"><div class="edu-meta">2021 – 2025</div><h3>B.Tech — Computer Science and Business Systems</h3><p>Arjun College of Technology, Coimbatore</p><p style="margin-top:8px">CGPA: 7.43 / 10</p></div>
+      <div class="card"><div class="edu-meta">2019 – 2021</div><h3>Intermediate — MPC</h3><p>MGM Junior College, Srikalahasti</p><p style="margin-top:8px">887 / 1000 (88.7%)</p></div>
+      <div class="card"><div class="edu-meta">2019</div><h3>SSC</h3><p>R.P.B.S. ZP Boys High School, Srikalahasti</p><p style="margin-top:8px">GPA: 9.3 / 10</p></div>
+    </div>
+  </div></section>
+
+  <section id="contact"><div class="wrap">
+    <div class="contact"><div><div class="eyebrow">Get in touch</div><h2>Let's connect</h2><p class="sub">Interested in entry-level opportunities, internships and projects where I can learn and contribute.</p></div><a class="btn primary" href="mailto:vinayyadavbathni@gmail.com">Email me</a></div>
+    <p class="sub" style="margin-top:14px;font-size:.85rem">Before publishing: Add your LinkedIn, GitHub and design samples if available.</p>
+  </div></section>
+</main>
+<footer><div class="wrap">© 2026 Batheni Vinay Yadav · Personal portfolio</div></footer>
+</body>
+</html>
